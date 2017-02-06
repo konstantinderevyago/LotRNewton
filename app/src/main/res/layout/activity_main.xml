@@ -1,17 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="by.jetfire.lotrnewton.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/number" />
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/one" />
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/two" />
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/three" />
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/four" />
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/five" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/name" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/names" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/names" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/names" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/names" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/names" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/color" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/colors" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/colors" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/colors" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/colors" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/colors" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/alcohol" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/alcohols" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/alcohols" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/alcohols" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/alcohols" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/alcohols" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/smoke" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/smokes" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/smokes" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/smokes" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/smokes" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/smokes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewItem"
+                android:text="@string/thing" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/things" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/things" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/things" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/things" />
+
+            <Spinner
+                style="@style/TextViewItem"
+                android:entries="@array/things" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
