@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">LotRNewton</string>
 
+    <string name="condition_1">Первый мешок - Леголас</string>
+    <string name="condition_2">У гимли красный мешок</string>
+
     <string name="number">№</string>
     <string name="one">1</string>
     <string name="two">2</string>
